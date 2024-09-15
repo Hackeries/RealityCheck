@@ -29,16 +29,6 @@ lli binpow(lli base, lli expo){
         return (temp * temp) % MOD;
     }
 }
-
-// void solve(){
-//     lli n;cin >> n;
-//     string s = "aeiou";
-//     string t;
-//     fr(i,5){
-//         for(lli j=0;j<n/5 +(i<n%5); ++ j)t+=s[i];
-//     }
-//     cout << t << "\n";
-// }
 void solve(){
     lli n;cin >> n;
     string s = "aeiou";
